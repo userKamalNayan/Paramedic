@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "129542006978",
+    "project_id": "paramedic-6d6db",
+    "storage_bucket": "paramedic-6d6db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:129542006978:android:3855af52a99d936830335b",
+        "android_client_info": {
+          "package_name": "com.example.paramedic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "129542006978-0n98kgdb73i72fpeb0avc7gqlvem5pc1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7YOtBRdNk2XpwZqm-Vz7XxKzIJH0Uhxc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "129542006978-0n98kgdb73i72fpeb0avc7gqlvem5pc1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
