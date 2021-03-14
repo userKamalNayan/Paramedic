@@ -9,4 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="gray">#808080</color>
     <color name="blue">#0000A0</color>
+    <color name="title_txt">#5E5D5D</color>
+
 </resources>

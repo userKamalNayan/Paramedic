@@ -78,6 +78,7 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical"
                     android:gravity="center"
+                    android:id="@+id/dashboard_hospitalList_Layout"
                     />
 
                 <ImageView

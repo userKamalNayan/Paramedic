@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:textColor="@color/title_txt"
+            android:fontFamily="@font/cantora_one"
+            android:text="Hospital Name" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+
+            android:textColor="#000"
+            android:layout_height="wrap_content"
+            android:text=":"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/capriola"
+            android:id="@+id/LHOS_name_txt"
+            android:layout_weight="2"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:textColor="@color/title_txt"
+            android:textSize="16sp"
+            android:fontFamily="@font/cantora_one"
+            android:text="Address" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            android:layout_gravity="center"
+              android:gravity="center"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:text=":"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/capriola"
+            android:id="@+id/LHOS_address_txt"
+            android:layout_weight="2"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="14dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:scaleType="center"
+            android:id="@+id/left"
+            android:src="@drawable/ic_baseline_access_time_24"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/LHOS_openTime_txt"
+            android:fontFamily="@font/capriola"
+            android:gravity="center"
+            android:layout_toRightOf="@+id/left"
+            android:layout_marginStart="5dp"
+            android:text="test"
+            android:layout_centerVertical="true"
+            android:textColor="@color/title_txt"
+            android:textAlignment="center"
+            android:textSize="16sp"
+
+            android:layout_toEndOf="@+id/left"
+            android:layout_marginLeft="5dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/LHOS_nav_img"
+            app:tint="#0BDC04"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_baseline_navigation_24"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="10dp"
+           android:layout_alignParentRight="true"
+            android:id="@+id/LHOS_call_img"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_baseline_phone_24"
+            android:layout_marginRight="10dp" />
+    </RelativeLayout>
+</LinearLayout>
